@@ -20,7 +20,8 @@ Import  ` AngRatingModule` in the root module
 ``` import { AngRatingModule } from "ang-rating" ```
 
 
-```@NgModule({
+```
+@NgModule({
   imports: [
     // ...
     AngRatingModule
@@ -30,7 +31,8 @@ Import  ` AngRatingModule` in the root module
 
 In your template
 
- ```<ang-rating [(ngModel)]="ratingThumsUp.value" [title]="ratingThumsUp.title"
+ ```
+ <ang-rating [(ngModel)]="ratingThumsUp.value" [title]="ratingThumsUp.title"
 [color]="ratingThumsUp.color" [type]="ratingThumsUp.type" [max]="ratingThumsUp.max" (rateChange)="onThumsUp($event)"
 [min]="ratingThumsUp.min" [step]="ratingThumsUp.step" [input]="ratingThumsUp.input"></ang-rating> 
 ```
@@ -60,14 +62,16 @@ In your template
 
 **Number rating example**
 
-```<ang-rating [(ngModel)]="ratingThumsUp.value" [title]="ratingThumsUp.title"
+```
+<ang-rating [(ngModel)]="ratingThumsUp.value" [title]="ratingThumsUp.title"
 [color]="ratingThumsUp.color" [type]="ratingThumsUp.type" [max]="ratingThumsUp.max" (rateChange)="onThumsUp($event)"
 [min]="ratingThumsUp.min" [step]="ratingThumsUp.step" [input]="ratingThumsUp.input"></ang-rating>
 ```
 
 It can be used with typescript file pass the value to rating direcive, for example:
 
-   ```this.ratingThumsUp = {
+   ```
+   this.ratingThumsUp = {
         type: 'star',
         value: 30,
         min: 10,
