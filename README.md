@@ -12,7 +12,7 @@ Author
 # Installation
 Install it with npm
 
-'npm install ang-rating'
+' npm install ang-rating '
 
 # Basic usage:
 Import 'AngRatingModule' in the root module
