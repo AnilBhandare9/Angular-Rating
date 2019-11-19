@@ -12,25 +12,25 @@ Author
 # Installation
 Install it with npm
 
-' npm install ang-rating '
+`npm install ang-rating `
 
 # Basic usage:
-Import 'AngRatingModule' in the root module
+Import  AngRatingModule` in the root module
 
-' import { AngRatingModule } from "ang-rating" '
+` import { AngRatingModule } from "ang-rating" `
 
-'''@NgModule({
+`@NgModule({
   imports: [
     // ...
     AngRatingModule
   ]
-})'''
+})`
 
 In your template
 
-'''<ang-rating [(ngModel)]="ratingThumsUp.value" [title]="ratingThumsUp.title"
+`<ang-rating [(ngModel)]="ratingThumsUp.value" [title]="ratingThumsUp.title"
 [color]="ratingThumsUp.color" [type]="ratingThumsUp.type" [max]="ratingThumsUp.max" (rateChange)="onThumsUp($event)"
-[min]="ratingThumsUp.min" [step]="ratingThumsUp.step" [input]="ratingThumsUp.input"></ang-rating>'''
+[min]="ratingThumsUp.min" [step]="ratingThumsUp.step" [input]="ratingThumsUp.input"></ang-rating> `
 
 
 # Rating options (inputs):
