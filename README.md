@@ -15,16 +15,16 @@ Install it with npm
 ```npm install ang-rating ```
 
 # Basic usage:
-Import  AngRatingModule` in the root module
+Import  ~AngRatingModule` in the root module
 
 ``` import { AngRatingModule } from "ang-rating" ```
 
-```@NgModule({
+``` @NgModule({
   imports: [
     // ...
     AngRatingModule
   ]
-})```
+}) ```
 
 In your template
 
