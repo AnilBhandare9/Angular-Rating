@@ -25,13 +25,13 @@ Import  ` AngRatingModule` in the root module
     // ...
     AngRatingModule
   ]
-}) ```
+})```
 
 In your template
 
-```<ang-rating [(ngModel)]="ratingThumsUp.value" [title]="ratingThumsUp.title"
+ <ang-rating [(ngModel)]="ratingThumsUp.value" [title]="ratingThumsUp.title"
 [color]="ratingThumsUp.color" [type]="ratingThumsUp.type" [max]="ratingThumsUp.max" (rateChange)="onThumsUp($event)"
-[min]="ratingThumsUp.min" [step]="ratingThumsUp.step" [input]="ratingThumsUp.input"></ang-rating> ```
+[min]="ratingThumsUp.min" [step]="ratingThumsUp.step" [input]="ratingThumsUp.input"></ang-rating> 
 
 
 # Rating options (inputs):
@@ -58,13 +58,13 @@ In your template
 
 **Number rating example**
 
-```<ang-rating [(ngModel)]="ratingThumsUp.value" [title]="ratingThumsUp.title"
+<ang-rating [(ngModel)]="ratingThumsUp.value" [title]="ratingThumsUp.title"
 [color]="ratingThumsUp.color" [type]="ratingThumsUp.type" [max]="ratingThumsUp.max" (rateChange)="onThumsUp($event)"
-[min]="ratingThumsUp.min" [step]="ratingThumsUp.step" [input]="ratingThumsUp.input"></ang-rating>```
+[min]="ratingThumsUp.min" [step]="ratingThumsUp.step" [input]="ratingThumsUp.input"></ang-rating>
 
 It can be used with typescript file pass the value to rating direcive, for example:
 
-   ```this.ratingThumsUp = {
+   this.ratingThumsUp = {
         type: 'star',
         value: 30,
         min: 10,
@@ -72,5 +72,5 @@ It can be used with typescript file pass the value to rating direcive, for examp
         step: 10,
         input: true,
         color: ['#ff0000', '#ffa500', '#ffd280', '#008000']
-    };```
+    };
 
